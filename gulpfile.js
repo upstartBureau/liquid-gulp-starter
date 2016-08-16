@@ -1,10 +1,11 @@
 var gulp = require('gulp');
 var liquify = require('gulp-liquify');
-var locals = require('./index')
 
-gulp.task('go', () => {
+var dumbdata = require('./data');
 
+gulp.task('default', () => {
+  console.log('liquid template compilation example')
   gulp.src('./src/*.html')
-      .pipe(liquify(locals, { base: "./src/templates/" }))
+      .pipe(liquify(data, { base: "./src/templates/" }))
       .pipe(gulp.dest('./dist/'))
 })
