@@ -1,0 +1,18 @@
+{
+  "name": "liquid-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-compile-liquid": "^0.1.2",
+    "gulp-liquid": "^0.1.0",
+    "gulp-liquify": "0.0.6",
+    "shopify-liquid": "^1.1.13"
+  }
+}
